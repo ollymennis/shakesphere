@@ -152,8 +152,7 @@ import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 
 // ─── COHERE API ──────────────────────────────────────────
-const DEFAULT_KEY = 'xX7Rod7Irj7WbAXd6aDDXCwXjUlt8bCHjAsNE1Sq';
-let COHERE_KEY = localStorage.getItem('cohere_key') || DEFAULT_KEY;
+let COHERE_KEY = localStorage.getItem('cohere_key') || '';
 
 const embeddingCache = new Map();
 
