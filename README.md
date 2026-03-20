@@ -1,4 +1,4 @@
-# quarto
+# shakesphere
 
 semantic search embeddings visualizer for shakespeare's complete works (or anything, really)
 
